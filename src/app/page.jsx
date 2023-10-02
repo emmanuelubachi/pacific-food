@@ -20,10 +20,10 @@ const FeedingThePacific = () => {
           />
         </div>
         <section className="m-0 h-[80vh] flex items-center justify-center">
-          <div className="m-0 flex flex-col items-center justify-center sm:space-y-10 space-y-2 w-fit bg-pri-12/90 p-4 rounded-2xl">
+          <div className="m-4 flex flex-col items-center justify-center sm:space-y-10 space-y-2 w-fit bg-pri-12/90 lg:p-6 p-4 rounded-2xl">
             <h1
               className="mb-4 
-            text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+            text-3xl sm:text-4xl md:text-5xl
             font-extrabold leading-none tracking-tight 
             text-stone-700 "
             >

@@ -13,19 +13,14 @@ const Navbar = () => {
   const navList = [
     {
       id: 1,
-      name: "Home",
+      name: "Back",
       url: "/",
     },
     {
       id: 2,
-      name: "Food Trade",
-      url: "#",
+      name: "Project Info",
+      url: "https://ubachi.com/feeding-the-pacific",
     },
-    // {
-    //   id: 3,
-    //   name: "Food Security",
-    //   url: "#projects",
-    // },
   ];
 
   return (
@@ -49,21 +44,6 @@ const Navbar = () => {
         </a>
 
         <div className="flex md:order-1 items-center justify-between sm:gap-2 gap-2">
-          {/* <Link
-            href="/"
-            className="text-white 
-            bg-pri-1 
-            rounded-lg 
-            px-3 py-1 sm:px-5 sm:py-3
-            mr-3 md:mr-0
-            font-medium 
-            text-xs text-center
-            hover:bg-gradient-to-tr hover:from-pri-1 hover:to-pri-3
-            transition-transform ease-in-out duration-500 hover:scale-110 cursor-pointer
-            focus:ring-4 focus:outline-none focus:ring-blue-300"
-          >
-            Home
-          </Link> */}
           <CountrySelector />
           <button
             data-collapse-toggle="navbar-cta"
@@ -109,12 +89,12 @@ const Navbar = () => {
                   href={items.url}
                   className="block py-2 pl-3 pr-4 
                   font-light text-stone-600 
-                  text-xs xl:text-sm uppercase
+                  text-xs xl:text-sm
                   rounded 
                   hover:bg-gray-100 
                   md:hover:bg-transparent
                   md:hover:-translate-y- md:hover:scale-110 ease-in-out duration-200 hover:font-medium
-                  md:hover:text-primary-700 
+                  md:hover:text-pri-1
                 
                   md:p-0"
                   aria-current="page"
